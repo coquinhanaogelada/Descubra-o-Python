@@ -16,7 +16,7 @@ def ManipulaJSON():
         print ("Contagem: " + str(contagem))
 
         for local in oJSON["features"]:
-            if local["properties"]["place"] == "190km ENE of Olonkinbyen, Svalbard and Jan Mayen" :
+            if local["properties"]["place"] == "38 km E of Santa Maria, Philippines" :
                 print("****Encontrado registro especial*****")
             else:
                 print(local["properties"]["place"])
